@@ -1,5 +1,11 @@
 # app-builder-lib
 
+## 24.0.0-alpha.9
+
+### Patch Changes
+
+- [#7327](https://github.com/electron-userland/electron-builder/pull/7327) [`973a0048`](https://github.com/electron-userland/electron-builder/commit/973a0048b46b8367864241a903453f927c158304) Thanks [@gbodeen](https://github.com/gbodeen)! - fix: Ensure parent directories of symlinks are created when copied directory only contains symlinks
+
 ## 24.0.0-alpha.8
 
 ### Major Changes
