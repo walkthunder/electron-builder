@@ -1,5 +1,11 @@
 ## 4.3.0
 
+## 5.4.0
+
+### Minor Changes
+
+- private scope
+
 ## 5.3.0
 
 ### Minor Changes

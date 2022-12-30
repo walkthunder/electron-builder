@@ -1,5 +1,11 @@
 # builder-util-runtime
 
+## 9.2.0
+
+### Minor Changes
+
+- private scope
+
 ## 9.1.1
 
 ### Patch Changes

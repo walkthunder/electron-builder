@@ -1,6 +1,6 @@
 {
-	"name": "dmg-builder",
-	"version": "23.6.1",
+	"name": "@walkthunder/dmg-builder",
+	"version": "23.7.0",
 	"main": "out/dmgUtil.js",
 	"author": "Vladimir Krivosheev",
 	"license": "MIT",

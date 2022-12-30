@@ -1,5 +1,11 @@
 # builder-util
 
+## 23.7.0
+
+### Minor Changes
+
+- private scope
+
 ## 23.6.0
 
 ### Patch Changes
