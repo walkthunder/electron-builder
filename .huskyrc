@@ -1,10 +1,8 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 # This loads nvm.sh and sets the correct PATH before running hook
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
+# pnpm
 export PNPM_HOME="/Users/aaronzheng/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-
-pnpm run lint-staged
+# pnpm end
