@@ -1,5 +1,11 @@
 # app-builder-lib
 
+## 23.6.1
+
+### Patch Changes
+
+- private version starter
+
 ## 23.6.0
 
 ### Minor Changes

@@ -1,6 +1,20 @@
 # [](https://github.com/electron-userland/electron-builder/compare/v23.6.0...v) (2022-12-30)
 
 
+### Bug Fixes
+
+* **husky:** Fix husky env issue. ([00b28a6](https://github.com/electron-userland/electron-builder/commit/00b28a61b5001a7b706c58289c12b003b358be52))
+
+
+### Features
+
+* **setup:** Setup local env. ([bb07850](https://github.com/electron-userland/electron-builder/commit/bb078503ff44b26429b87dfd84eafe5e4f1da592))
+
+
+
+# [](https://github.com/electron-userland/electron-builder/compare/v23.6.0...v) (2022-12-30)
+
+
 
 # [](https://github.com/electron-userland/electron-builder/compare/v23.5.1...v) (2022-10-03)
 

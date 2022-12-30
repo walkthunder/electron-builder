@@ -1,5 +1,15 @@
 # electron-builder
 
+## 23.6.1
+
+### Patch Changes
+
+- private version starter
+
+- Updated dependencies []:
+  - app-builder-lib@23.6.1
+  - dmg-builder@23.6.1
+
 ## 23.6.0
 
 ### Patch Changes
