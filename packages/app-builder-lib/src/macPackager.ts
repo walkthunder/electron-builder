@@ -215,7 +215,12 @@ export default class MacPackager extends PlatformPackager<MacConfiguration> {
     const type = explicitType || "distribution"
     const isDevelopment = type === "development"
     const certificateTypes = getCertificateTypes(isMas, isDevelopment)
-
+    log.info(
+      {
+        certificateTypes,
+      },
+      "identity certificateTypes"
+    )
     let identity = null
     for (const certificateType of certificateTypes) {
       identity = await findIdentity(certificateType, qualifier, keychainFile)
@@ -223,7 +228,12 @@ export default class MacPackager extends PlatformPackager<MacConfiguration> {
         break
       }
     }
-
+    log.info(
+      {
+        identity,
+      },
+      "Found identity from config"
+    )
     if (identity == null) {
       if (!isMas && !isDevelopment && explicitType !== "distribution") {
         identity = await findIdentity("Mac Developer", qualifier, keychainFile)
@@ -444,7 +454,8 @@ export default class MacPackager extends PlatformPackager<MacConfiguration> {
 
     await BluebirdPromise.map(readdir(packContext.appOutDir), (file: string): any => {
       if (file === appFileName) {
-        return this.sign(path.join(packContext.appOutDir, file), null, null, null)
+        const masBuildOptions = deepAssign({}, this.platformSpecificBuildOptions, this.config.mas)
+        return this.sign(path.join(packContext.appOutDir, file), null, masBuildOptions, null)
       }
       return null
     })

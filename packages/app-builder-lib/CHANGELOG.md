@@ -1,5 +1,23 @@
 # app-builder-lib
 
+## 25.1.0
+
+### Minor Changes
+
+- Bump all packages.
+
+## 25.0.0
+
+### Patch Changes
+
+- Bump electron-builder
+
+## 24.0.0
+
+### Major Changes
+
+- Use mas option for the first signing
+
 ## 23.7.0
 
 ### Minor Changes

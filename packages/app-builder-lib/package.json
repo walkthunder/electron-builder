@@ -1,7 +1,7 @@
 {
   "name": "@walkthunder/app-builder-lib",
   "description": "electron-builder lib",
-  "version": "23.7.0",
+  "version": "25.1.0",
   "main": "out/index.js",
   "files": [
     "out",

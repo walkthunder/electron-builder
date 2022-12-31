@@ -1,5 +1,11 @@
 ## 4.3.0
 
+## 5.5.0
+
+### Minor Changes
+
+- Bump all packages.
+
 ## 5.4.0
 
 ### Minor Changes

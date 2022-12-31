@@ -1,5 +1,17 @@
 # electron-builder
 
+## 25.1.0
+
+### Minor Changes
+
+- Bump all packages.
+
+## 25.0.0
+
+### Major Changes
+
+- Bump electron-builder
+
 ## 23.7.0
 
 ### Minor Changes

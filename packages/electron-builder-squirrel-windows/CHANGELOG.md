@@ -1,5 +1,11 @@
 # electron-builder-squirrel-windows
 
+## 25.1.0
+
+### Minor Changes
+
+- Bump all packages.
+
 ## 23.7.0
 
 ### Minor Changes

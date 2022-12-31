@@ -1,6 +1,6 @@
 {
   "name": "@walkthunder/electron-publish",
-  "version": "23.7.0",
+  "version": "25.1.0",
   "main": "out/publisher.js",
   "author": "Vladimir Krivosheev",
   "license": "MIT",
