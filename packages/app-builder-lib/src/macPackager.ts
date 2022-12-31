@@ -332,7 +332,7 @@ export default class MacPackager extends PlatformPackager<MacConfiguration> {
     await this.doSign(signOptions)
 
     // https://github.com/electron-userland/electron-builder/issues/1196#issuecomment-312310209
-    if (masOptions != null && !isDevelopment) {
+    if (masOptions != null && !isDevelopment && outDir) {
       const certType = isDevelopment ? "Mac Developer" : "3rd Party Mac Developer Installer"
       const masInstallerIdentity = await findIdentity(certType, masOptions.identity, keychainFile)
       if (masInstallerIdentity == null) {
@@ -341,7 +341,7 @@ export default class MacPackager extends PlatformPackager<MacConfiguration> {
 
       // mas uploaded to AppStore, so, use "-" instead of space for name
       const artifactName = this.expandArtifactNamePattern(masOptions, "pkg", arch)
-      const artifactPath = path.join(outDir!, artifactName)
+      const artifactPath = path.join(outDir, artifactName)
       await this.doFlat(appPath, artifactPath, masInstallerIdentity, keychainFile)
       await this.dispatchArtifactCreated(artifactPath, null, Arch.x64, this.computeSafeArtifactName(artifactName, "pkg", arch, true, this.platformSpecificBuildOptions.defaultArch))
     }

@@ -1,6 +1,21 @@
 # [](https://github.com/electron-userland/electron-builder/compare/v23.6.1...v) (2022-12-31)
 
 
+### Bug Fixes
+
+* **mas:** Fix mas build identify bug. ([48b9304](https://github.com/electron-userland/electron-builder/commit/48b9304ef666cb9e00f28d6722c34abc8d8ba44c))
+
+
+### Features
+
+* **private:** Private scope. ([1298adc](https://github.com/electron-userland/electron-builder/commit/1298adc760c9b2f6fc5a3fd72fb708081b2b4003))
+* **publish:** Public setup. ([aa46fba](https://github.com/electron-userland/electron-builder/commit/aa46fbac320c753a393240b898cc50ece6014390))
+
+
+
+# [](https://github.com/electron-userland/electron-builder/compare/v23.6.1...v) (2022-12-31)
+
+
 ### Features
 
 * **private:** Private scope. ([1298adc](https://github.com/electron-userland/electron-builder/commit/1298adc760c9b2f6fc5a3fd72fb708081b2b4003))

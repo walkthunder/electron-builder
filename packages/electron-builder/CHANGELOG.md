@@ -1,5 +1,11 @@
 # electron-builder
 
+## 25.2.0
+
+### Minor Changes
+
+- skip out artifict if necessary
+
 ## 25.1.0
 
 ### Minor Changes
